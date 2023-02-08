@@ -11,6 +11,9 @@ from tutorial_template.pipelines.utils.sql_formatter import Formatter
 from kedro.config import ConfigLoader
 from kedro.framework.project import settings
 
+import pandas as pd
+import numpy as np
+
 
 def run_sql_queries(data, sql_parameters: Dict, redshift: Dict):
     """This function runs a function to perform aggregations on redshift data and save to s3
@@ -38,3 +41,13 @@ def run_sql_queries(data, sql_parameters: Dict, redshift: Dict):
     results = connector.execute_multiple(statements)
 
     log.info('Customer base')
+
+def customer_spend_aggregates(data):
+    log = logging.getLogger(__name__)
+    agg_data = pd.pivot_table(data=data, index='business_unit',values=['total_spend'],aggfunc=[np.median,np.mean])
+    log.info(f'{agg_data}')
+    return agg_data
+
+def compute_spend_average(data):
+    spend_ave = data['total_spend'].mean()
+    return spend_ave
