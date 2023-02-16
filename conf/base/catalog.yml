@@ -54,3 +54,11 @@ na_customer_spend_agg:
     save_args:
         mode: w
         index: True
+
+metrics:
+  type: tracking.MetricsDataSet
+  filepath: data/09_tracking/metrics.json
+
+companies_columns:
+  type: tracking.JSONDataSet
+  filepath: data/09_tracking/companies_columns.json
