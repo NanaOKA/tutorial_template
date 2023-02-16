@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/abanan/Desktop/deep_dive_sessions/tutorial_template/notebooks/mlruns/0/f1e4f587f8334a5ea5bd6e76fca86f2f/artifacts
+end_time: 1676508261935
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f1e4f587f8334a5ea5bd6e76fca86f2f
+run_name: judicious-kite-456
+run_uuid: f1e4f587f8334a5ea5bd6e76fca86f2f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676508256246
+status: 3
+tags: []
+user_id: abanan

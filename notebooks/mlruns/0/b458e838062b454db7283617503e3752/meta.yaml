@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/abanan/Desktop/deep_dive_sessions/tutorial_template/notebooks/mlruns/0/b458e838062b454db7283617503e3752/artifacts
+end_time: 1676508451426
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b458e838062b454db7283617503e3752
+run_name: kindly-cod-373
+run_uuid: b458e838062b454db7283617503e3752
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676508448235
+status: 3
+tags: []
+user_id: abanan

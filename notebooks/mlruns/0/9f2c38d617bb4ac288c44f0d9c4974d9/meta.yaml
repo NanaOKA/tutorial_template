@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/abanan/Desktop/deep_dive_sessions/tutorial_template/notebooks/mlruns/0/9f2c38d617bb4ac288c44f0d9c4974d9/artifacts
+end_time: 1676508295689
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9f2c38d617bb4ac288c44f0d9c4974d9
+run_name: unique-fawn-786
+run_uuid: 9f2c38d617bb4ac288c44f0d9c4974d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676508292224
+status: 3
+tags: []
+user_id: abanan

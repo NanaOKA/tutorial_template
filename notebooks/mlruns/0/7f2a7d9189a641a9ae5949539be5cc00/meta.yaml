@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/Users/abanan/Desktop/deep_dive_sessions/tutorial_template/notebooks/mlruns/0/7f2a7d9189a641a9ae5949539be5cc00/artifacts
+deleted_time: 1676507947253
 end_time: 1676506189286
 entry_point_name: ''
 experiment_id: '0'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 7f2a7d9189a641a9ae5949539be5cc00
 run_name: whimsical-cod-523
 run_uuid: 7f2a7d9189a641a9ae5949539be5cc00
